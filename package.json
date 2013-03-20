@@ -1,0 +1,18 @@
+{
+  "name": "abide-demo",
+  "version": "0.0.1",
+  "description": "Demo using the i18n-abide npm module",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "~0.8.3",
+    "i18n-abide": "~0.0.8beta4",
+    "express": "~3.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmarier/abide-demo"
+  },
+  "author": "Francois Marier <francois@mozilla.com>",
+  "license": "CC0"
+}
