@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.use(i18n.abide({
-  supported_languages: ['en-US'],
+  supported_languages: ['en-US', 'es', 'de'],
   default_lang: 'en-US',
   translation_directory: 'static/i18n'
 }));
